@@ -44,5 +44,6 @@ The brief asks for edits based on Part One mark feedback, but the feedback itsel
 
 ## GitHub submission
 
-This folder does not currently contain a Git repository or a configured remote. After connecting the project to your course GitHub repository, commit the changes with a descriptive message and add the repository link to your Learning Management System submission.
+The project is published in the public repository [khensimckay/project-2](https://github.com/khensimckay/project-2). Submit this repository link to your Learning Management System. The live website is not hosted yet; enable GitHub Pages in the repository settings if your assignment requires a public website URL.
+
 
