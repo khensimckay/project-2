@@ -46,9 +46,12 @@ The brief asks for edits based on Part One mark feedback, but the feedback itsel
 - W3C Web Accessibility Initiative. (n.d.). [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/understanding/). Accessed 5 October 2026.
 - No external libraries, web fonts, or third-party image assets are used.
 - The two abstract project illustrations were created for this starter project and are examples to replace with genuine project images if available.
-- Font stack: locally available system sans-serif fonts.`r`n`r`n## GitHub submission
+- Font stack: locally available system sans-serif fonts.
+
+## GitHub submission
 
 The project is published in the public repository [khensimckay/project-2](https://github.com/khensimckay/project-2). The live website is available at [khensimckay.github.io/project-2](https://khensimckay.github.io/project-2/). Submit the repository link to your Learning Management System.
+
 
 
 
