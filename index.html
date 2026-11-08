@@ -124,7 +124,8 @@
         <p class="eyebrow">04 / PROJECT ENQUIRY</p>
         <h2 id="enquiry-title">Ask about a project.</h2>
       </div>
-      <form id="enquiry-form" class="site-form" action="#enquiry" method="get">
+      <p class="supporting-copy">Submissions are sent securely over HTTPS through FormSubmit to ST10528937@myemeris.edu.za. FormSubmit retains submissions for up to 30 days.</p>
+      <form id="enquiry-form" class="site-form" action="https://formsubmit.co/ajax/ST10528937@myemeris.edu.za" method="post">
         <label for="enquiry-name">Your name</label>
         <input id="enquiry-name" name="name" autocomplete="name" required minlength="2" maxlength="80">
         <label for="enquiry-email">Email address</label>
@@ -136,7 +137,10 @@
         </select>
         <label for="enquiry-date">Preferred date (optional)</label>
         <input id="enquiry-date" name="date" type="date">
-        <button class="button button-primary" type="submit">Check enquiry</button>
+        <label class="consent-label" for="enquiry-consent"><input id="enquiry-consent" name="consent" type="checkbox" value="yes" required> I agree to send these details through FormSubmit to Khensani.</label>
+        <input type="hidden" name="_subject" value="New project enquiry from portfolio">
+        <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button class="button button-primary" type="submit">Send enquiry</button>
         <p id="enquiry-status" class="form-status" role="status" aria-live="polite"></p>
       </form>
     </section>
@@ -157,14 +161,18 @@
           <p class="eyebrow">04 / GET IN TOUCH</p>
           <h2 id="contact-title">Have a good idea?<br>Let’s talk.</h2>
         </div>
-        <form id="contact-form" class="site-form contact-form" action="mailto:ST10528937@myemeris.edu.za" method="post" enctype="text/plain">
+        <p class="supporting-copy">Submissions are sent securely over HTTPS through FormSubmit to ST10528937@myemeris.edu.za. FormSubmit retains submissions for up to 30 days.</p>
+        <form id="contact-form" class="site-form contact-form" action="https://formsubmit.co/ajax/ST10528937@myemeris.edu.za" method="post">
           <label for="contact-name">Your name</label><input id="contact-name" name="name" autocomplete="name" required minlength="2" maxlength="80">
           <label for="contact-email">Email address</label><input id="contact-email" name="email" type="email" autocomplete="email" required>
           <label for="contact-type">Message type</label>
           <select id="contact-type" name="message_type" required><option value="">Choose one</option><option>General question</option><option>Feedback</option><option>Collaboration</option></select>
           <label for="contact-message">Message</label><textarea id="contact-message" name="message" required minlength="10" maxlength="2000" rows="5"></textarea>
-          <button class="button button-primary" type="submit">Prepare email</button>
-          <p id="contact-status" class="form-status" role="status" aria-live="polite">This form prepares a message for your email app. Review it there and press Send.</p>
+          <label class="consent-label" for="contact-consent"><input id="contact-consent" name="consent" type="checkbox" value="yes" required> I agree to send these details through FormSubmit to Khensani.</label>
+          <input type="hidden" name="_subject" value="New portfolio contact message">
+          <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="button button-primary" type="submit">Send message</button>
+          <p id="contact-status" class="form-status" role="status" aria-live="polite">Your message will be sent to ST10528937@myemeris.edu.za after you submit it.</p>
         </form>
       </div>
     </section>
