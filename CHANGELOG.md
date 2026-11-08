@@ -2,6 +2,7 @@
 
 ## 2026-11-08 — Part Three: functionality, forms, SEO, and publishing
 
+- Personalised the portfolio with the name Khensani Maluleke and a student bio grounded in the project brief; replaced sample project placeholders with descriptions of the completed portfolio and its JavaScript enhancements.
 - Added responsive project search with live result counts, status announcements, and filtering across project titles, descriptions, and keywords.
 - Added keyboard-operable project image lightboxes using the native dialog element, including Escape, close button, backdrop click, and visible focus styling.
 - Added the interactive OpenStreetMap embed and map link. It is labelled as a Johannesburg example and must be changed to the organisation's real location.
@@ -24,7 +25,7 @@
 - Added keyboard, reduced-motion, dark colour-scheme, increased-contrast, and forced-colour support.
 - Added this README, a Part Two reference list, and a responsive screenshot evidence checklist.
 
-## Part One mark feedback
+## Part Two feedback
 
-No mark feedback was included in the materials available for this revision. Add the specific feedback and the corresponding correction here when it is provided; do not infer or invent feedback.
+The feedback printout was provided on 8 November 2026 and the mark totals and marker comments are recorded in the Part Three entry above. No Part One feedback was supplied separately.
 
