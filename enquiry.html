@@ -3,18 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Send a project, service, volunteering, or sponsorship enquiry to [Your Name].">
+  <meta name="description" content="Send a project, service, volunteering, or sponsorship enquiry to Khensani Maluleke.">
   <meta name="keywords" content="project enquiry, web development, services, volunteering, sponsorship">
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://khensimckay.github.io/project-2/enquiry.html">
   <meta name="color-scheme" content="light dark">
-  <title>Project Enquiry | [Your Name]</title>
+  <title>Project Enquiry | Khensani Maluleke</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
   <header class="site-header"><div class="container header-inner">
-    <a class="brand" href="index.html">[Your Name]<span class="brand-dot" aria-hidden="true">.</span></a>
+    <a class="brand" href="index.html">Khensani Maluleke<span class="brand-dot" aria-hidden="true">.</span></a>
     <nav class="site-nav" aria-label="Main navigation"><ul>
       <li><a href="index.html#about">About</a></li><li><a href="index.html#projects">Projects</a></li>
       <li><a href="enquiry.html" aria-current="page">Enquiry</a></li><li><a href="contact.html">Contact</a></li>
@@ -23,8 +23,8 @@
   <main id="main-content" class="container standalone-page" tabindex="-1">
     <p class="eyebrow">PROJECT ENQUIRY</p>
     <h1>Tell me what you have in mind.</h1>
-    <p class="supporting-copy">Complete the form to see an immediate confirmation summary. This sample site does not save or transmit enquiries.</p>
-    <form id="enquiry-form" class="site-form" action="enquiry.html" method="get">
+    <p class="supporting-copy">Your enquiry will be sent securely over HTTPS through FormSubmit to ST10528937@myemeris.edu.za. FormSubmit retains submissions for up to 30 days.</p>
+    <form id="enquiry-form" class="site-form" action="https://formsubmit.co/ajax/ST10528937@myemeris.edu.za" method="post">
       <label for="enquiry-name">Your name</label>
       <input id="enquiry-name" name="name" autocomplete="name" required minlength="2" maxlength="80">
       <label for="enquiry-email">Email address</label>
@@ -35,11 +35,14 @@
       </select>
       <label for="enquiry-date">Preferred date (optional)</label><input id="enquiry-date" name="date" type="date">
       <label for="enquiry-message">Tell me more (optional)</label><textarea id="enquiry-message" name="message" maxlength="1500" rows="5"></textarea>
-      <button class="button button-primary" type="submit">Review enquiry</button>
+      <label class="consent-label" for="enquiry-consent"><input id="enquiry-consent" name="consent" type="checkbox" value="yes" required> I agree to send these details through FormSubmit to Khensani.</label>
+      <input type="hidden" name="_subject" value="New project enquiry from portfolio">
+      <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="button button-primary" type="submit">Send enquiry</button>
       <p id="enquiry-status" class="form-status" role="status" aria-live="polite"></p>
     </form>
   </main>
-  <footer class="site-footer"><div class="container footer-inner"><p>© <span id="current-year">2026</span> [Your Name]</p><a href="index.html">Back to portfolio</a></div></footer>
+  <footer class="site-footer"><div class="container footer-inner"><p>© <span id="current-year">2026</span> Khensani Maluleke</p><a href="index.html">Back to portfolio</a></div></footer>
   <script src="js/main.js" defer></script>
 </body>
 </html>
