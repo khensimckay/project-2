@@ -17,7 +17,8 @@ projectSearch?.addEventListener("input", () => {
   searchStatus.textContent = query ? `${visible} project${visible === 1 ? "" : "s"} found.` : "Showing all projects.";
 });
 
-document.querySelector("#current-year").textContent = String(new Date().getFullYear());
+const currentYear = document.querySelector("#current-year");
+if (currentYear) currentYear.textContent = String(new Date().getFullYear());
 
 document.querySelector("#enquiry-form")?.addEventListener("submit", (event) => {
   event.preventDefault();
