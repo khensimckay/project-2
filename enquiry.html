@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Send a project, service, volunteering, or sponsorship enquiry to [Your Name].">
+  <meta name="keywords" content="project enquiry, web development, services, volunteering, sponsorship">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://khensimckay.github.io/project-2/enquiry.html">
+  <meta name="color-scheme" content="light dark">
+  <title>Project Enquiry | [Your Name]</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header"><div class="container header-inner">
+    <a class="brand" href="index.html">[Your Name]<span class="brand-dot" aria-hidden="true">.</span></a>
+    <nav class="site-nav" aria-label="Main navigation"><ul>
+      <li><a href="index.html#about">About</a></li><li><a href="index.html#projects">Projects</a></li>
+      <li><a href="enquiry.html" aria-current="page">Enquiry</a></li><li><a href="contact.html">Contact</a></li>
+    </ul></nav>
+  </div></header>
+  <main id="main-content" class="container standalone-page" tabindex="-1">
+    <p class="eyebrow">PROJECT ENQUIRY</p>
+    <h1>Tell me what you have in mind.</h1>
+    <p class="supporting-copy">Complete the form to see an immediate confirmation summary. This sample site does not save or transmit enquiries.</p>
+    <form id="enquiry-form" class="site-form" action="enquiry.html" method="get">
+      <label for="enquiry-name">Your name</label>
+      <input id="enquiry-name" name="name" autocomplete="name" required minlength="2" maxlength="80">
+      <label for="enquiry-email">Email address</label>
+      <input id="enquiry-email" name="email" type="email" autocomplete="email" required>
+      <label for="enquiry-service">Enquiry type</label>
+      <select id="enquiry-service" name="service" required>
+        <option value="">Choose one</option><option>Website or portfolio</option><option>Product or service</option><option>Volunteering</option><option>Sponsorship</option>
+      </select>
+      <label for="enquiry-date">Preferred date (optional)</label><input id="enquiry-date" name="date" type="date">
+      <label for="enquiry-message">Tell me more (optional)</label><textarea id="enquiry-message" name="message" maxlength="1500" rows="5"></textarea>
+      <button class="button button-primary" type="submit">Review enquiry</button>
+      <p id="enquiry-status" class="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><p>© <span id="current-year">2026</span> [Your Name]</p><a href="index.html">Back to portfolio</a></div></footer>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
+
