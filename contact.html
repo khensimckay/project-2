@@ -3,18 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Contact [Your Name] with a question, feedback, or collaboration message.">
+  <meta name="description" content="Contact Khensani Maluleke with a question, feedback, or collaboration message.">
   <meta name="keywords" content="contact, web developer, portfolio, collaboration">
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://khensimckay.github.io/project-2/contact.html">
   <meta name="color-scheme" content="light dark">
-  <title>Contact | [Your Name]</title>
+  <title>Contact | Khensani Maluleke</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
   <header class="site-header"><div class="container header-inner">
-    <a class="brand" href="index.html">[Your Name]<span class="brand-dot" aria-hidden="true">.</span></a>
+    <a class="brand" href="index.html">Khensani Maluleke<span class="brand-dot" aria-hidden="true">.</span></a>
     <nav class="site-nav" aria-label="Main navigation"><ul>
       <li><a href="index.html#about">About</a></li><li><a href="index.html#projects">Projects</a></li>
       <li><a href="enquiry.html">Enquiry</a></li><li><a href="contact.html" aria-current="page">Contact</a></li>
@@ -23,18 +23,21 @@
   <main id="main-content" class="container standalone-page" tabindex="-1">
     <p class="eyebrow">GET IN TOUCH</p>
     <h1>Send a message.</h1>
-    <p class="supporting-copy">After validation, your email app opens with the message ready. Review it and press Send there.</p>
-    <form id="contact-form" class="site-form contact-form" action="mailto:ST10528937@myemeris.edu.za" method="post" enctype="text/plain">
+    <p class="supporting-copy">Your message will be sent securely over HTTPS through FormSubmit to ST10528937@myemeris.edu.za. FormSubmit retains submissions for up to 30 days.</p>
+    <form id="contact-form" class="site-form contact-form" action="https://formsubmit.co/ajax/ST10528937@myemeris.edu.za" method="post">
       <label for="contact-name">Your name</label><input id="contact-name" name="name" autocomplete="name" required minlength="2" maxlength="80">
       <label for="contact-email">Email address</label><input id="contact-email" name="email" type="email" autocomplete="email" required>
       <label for="contact-type">Message type</label>
       <select id="contact-type" name="message_type" required><option value="">Choose one</option><option>General question</option><option>Feedback</option><option>Collaboration</option></select>
       <label for="contact-message">Message</label><textarea id="contact-message" name="message" required minlength="10" maxlength="2000" rows="6"></textarea>
-      <button class="button button-primary" type="submit">Prepare email</button>
-      <p id="contact-status" class="form-status" role="status" aria-live="polite">Messages go to ST10528937@myemeris.edu.za.</p>
+      <label class="consent-label" for="contact-consent"><input id="contact-consent" name="consent" type="checkbox" value="yes" required> I agree to send these details through FormSubmit to Khensani.</label>
+      <input type="hidden" name="_subject" value="New portfolio contact message">
+      <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="button button-primary" type="submit">Send message</button>
+      <p id="contact-status" class="form-status" role="status" aria-live="polite">Your message will be sent to ST10528937@myemeris.edu.za after you submit it.</p>
     </form>
   </main>
-  <footer class="site-footer"><div class="container footer-inner"><p>© <span id="current-year">2026</span> [Your Name]</p><a href="index.html">Back to portfolio</a></div></footer>
+  <footer class="site-footer"><div class="container footer-inner"><p>© <span id="current-year">2026</span> Khensani Maluleke</p><a href="index.html">Back to portfolio</a></div></footer>
   <script src="js/main.js" defer></script>
 </body>
 </html>
