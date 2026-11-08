@@ -9,7 +9,7 @@ The portfolio identifies Khensani Maluleke as a web development student and desc
 1. Open this folder in Visual Studio Code: **File → Open Folder**.
 2. Open `index.html` to edit the page and `css/style.css` to edit its design.
 3. Open `index.html` in a browser to preview the site.
-4. For the responsive evidence requested by the assignment, use browser developer tools to view the page at desktop, tablet, and mobile widths. Save genuine screenshots in `docs/screenshots/` and add them to the table below.
+4. Genuine desktop, tablet, and mobile previews are included in `docs/screenshots/` and listed below.
 
 ## Part Two implementation
 
@@ -39,15 +39,15 @@ The portfolio identifies Khensani Maluleke as a web development student and desc
 
 ## Responsive screenshot evidence
 
-Screenshots have not been captured in this workspace. Add genuine browser screenshots here before submission:
+Responsive browser screenshots of the published portfolio:
 
 | View | Suggested viewport | Screenshot file |
 | --- | ---: | --- |
-| Desktop | 1440 × 900 | `docs/screenshots/desktop.png` |
-| Tablet | 768 × 1024 | `docs/screenshots/tablet.png` |
-| Mobile | 390 × 844 | `docs/screenshots/mobile.png` |
+| Desktop | 1529 × 959 | [`desktop.jpg`](docs/screenshots/desktop.jpg) |
+| Tablet | 768 × 1024 | [`tablet.jpg`](docs/screenshots/tablet.jpg) |
+| Mobile | 390 × 844 | [`mobile.jpg`](docs/screenshots/mobile.jpg) |
 
-The browser preview available to this coding session blocks local `file://` pages, so I could not capture or verify these images here. Do not treat the filenames above as existing evidence until the screenshots have been added.
+The desktop image records the browser window at its available desktop size. The tablet and mobile views use Chrome's responsive preview at the stated viewport dimensions.
 
 ## Part Two feedback and corrections
 
