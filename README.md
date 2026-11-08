@@ -1,6 +1,6 @@
 # Web Development Portfolio
 
-A single-page portfolio starter built with semantic HTML and an external CSS stylesheet. It is designed to introduce a web developer, describe skills, show selected work, and provide contact information.
+A responsive portfolio website built with semantic HTML, a shared external stylesheet, and JavaScript. It includes a home page, a project enquiry page, and a contact page.
 
 > Personal details and project descriptions in square brackets are placeholders. Replace them with accurate information before submitting or publishing the site.
 
@@ -25,16 +25,16 @@ A single-page portfolio starter built with semantic HTML and an external CSS sty
 - **Interactive elements:** project image lightbox supports mouse, Enter, Space, Escape, and click-outside closing; CSS transitions respect reduced-motion preferences.
 - **Dynamic content and search:** project cards are filtered as the visitor types, with an announced result count and a clear empty-results state.
 - **Enquiry form:** collects name, valid email, service type, and optional date. Browser validation runs before JavaScript displays an enquiry summary. This static demo does not save or send enquiries.
-- **Contact form:** collects name, email, message type, and message, validates required fields, then prepares an email using the visitor's email application. Replace `REPLACE_WITH_YOUR_EMAIL@example.com` in `index.html` with the intended recipient before use. Delivery depends on the visitor having a mail application configured.
+- **Contact form:** collects name, email, message type, and message, validates required fields, then prepares an email using the visitor's email application. The configured recipient is the address provided for this project. Review the public contact email before sharing the site. Delivery depends on the visitor having a mail application configured.
 - **Map:** responsive, interactive OpenStreetMap embed centered on Johannesburg as a clearly labelled example. Replace the coordinates and labels with the organisation's actual location.
 - **SEO:** descriptive title and meta description, canonical URL, keywords, headings, robots directives, and sitemap are included. Project image assets use descriptive names and are responsive; the artwork is decorative, so empty alt text is intentional.
 - **Security and privacy:** no third-party JavaScript or form data collection is used. The contact form keeps data in the visitor's mail application; the enquiry form only displays a local response. The map is an external OpenStreetMap embed.
 
 ### Part Three setup still needed
 
-1. Replace the example name, biography, skills, project details, and contact email in `index.html`.
+1. Replace the example name, biography, skills, and project descriptions in `index.html`; change the recipient address in `contact.html` if needed.
 2. Change the map coordinates and description to the correct organisation location, or remove the map if it is not relevant.
-3. Provide the Part Two marker feedback and record the actual changes in `CHANGELOG.md`; feedback was not included in the supplied materials.
+3. Review the feedback and changes recorded in `CHANGELOG.md`. The Part 1 non-submission cannot be corrected retroactively.
 4. If enquiries must be delivered without opening a mail application, connect a form service or server endpoint. No endpoint or credentials were supplied, so the current static form does not claim to send data.
 
 ## Responsive screenshot evidence
@@ -49,9 +49,9 @@ Screenshots have not been captured in this workspace. Add genuine browser screen
 
 The browser preview available to this coding session blocks local `file://` pages, so I could not capture or verify these images here. Do not treat the filenames above as existing evidence until the screenshots have been added.
 
-## Part One feedback
+## Part Two feedback and corrections
 
-The brief asks for edits based on Part One mark feedback, but the feedback itself was not included with the materials I received. Add each actual correction here and record it in `CHANGELOG.md` once you have the feedback.
+The marker feedback recorded that Part 1 was not submitted and that only one page was present. The multiple-page issue is addressed with separate `enquiry.html` and `contact.html` pages, sharing the responsive stylesheet and JavaScript. A missed Part 1 submission cannot be corrected retroactively. Part 2 rubric marks and corrections are recorded in the changelog.
 
 ## References
 
@@ -72,7 +72,8 @@ The brief asks for edits based on Part One mark feedback, but the feedback itsel
 
 ## GitHub submission
 
-The project is published in the public repository [khensimckay/project-2](https://github.com/khensimckay/project-2). The live website is available at [khensimckay.github.io/project-2](https://khensimckay.github.io/project-2/). Submit the repository link to your Learning Management System.
+The project is published in the public repository [khensimckay/project-2](https://github.com/khensimckay/project-2). The live website is available at [khensimckay.github.io/project-2](https://khensimckay.github.io/project-2/). The home page, [enquiry page](https://khensimckay.github.io/project-2/enquiry.html), and [contact page](https://khensimckay.github.io/project-2/contact.html) are included. Submit the repository link to your Learning Management System.
+
 
 
 
