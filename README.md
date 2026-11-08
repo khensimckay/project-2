@@ -35,7 +35,7 @@ The portfolio identifies Khensani Maluleke as a web development student and desc
 1. Review the bio, skills, and project descriptions in `index.html` and edit them if you want different wording; change the recipient address in `contact.html` if needed.
 2. Change the map coordinates and description to the correct organisation location, or remove the map if it is not relevant.
 3. Review the feedback and changes recorded in `CHANGELOG.md`. The Part 1 non-submission cannot be corrected retroactively.
-4. Submit one test message on the live site. FormSubmit will send a one-time activation email to ST10528937@myemeris.edu.za; open it and confirm the address. Both forms can send email after activation. Check spam if the activation message is delayed.
+4. A harmless setup test has requested FormSubmit activation. Open the activation email sent to ST10528937@myemeris.edu.za and confirm the address once. The setup test was not delivered. After confirmation, submissions from both forms can be sent by email. Check spam if the activation message is delayed.
 
 ## Responsive screenshot evidence
 
