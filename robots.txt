@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://khensimckay.github.io/project-2/sitemap.xml
+
