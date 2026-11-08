@@ -33,7 +33,14 @@ async function sendFormToServer(form, status) {
       body: JSON.stringify(Object.fromEntries(new FormData(form).entries()))
     });
     const result = await response.json();
-    if (!response.ok || result.success === "false" || result.success === false) {
+    if (result.success === "false" || result.success === false) {
+      if (/activation/i.test(result.message || "")) {
+        status.textContent = "The site owner must confirm the activation email sent to ST10528937@myemeris.edu.za. Please try again after the address is confirmed; this message was not delivered.";
+        return;
+      }
+      throw new Error(result.message || "The form service could not accept the submission.");
+    }
+    if (!response.ok) {
       throw new Error(result.message || "The form service could not accept the submission.");
     }
     form.reset();
