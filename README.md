@@ -2,14 +2,14 @@
 
 A responsive portfolio website built with semantic HTML, a shared external stylesheet, and JavaScript. It includes a home page, a project enquiry page, and a contact page.
 
-The portfolio identifies Khensani Maluleke as a web development student and describes the responsive portfolio and its JavaScript enhancements.
+> Personal details and project descriptions in square brackets are placeholders. Replace them with accurate information before submitting or publishing the site.
 
 ## Open and preview
 
 1. Open this folder in Visual Studio Code: **File → Open Folder**.
 2. Open `index.html` to edit the page and `css/style.css` to edit its design.
 3. Open `index.html` in a browser to preview the site.
-4. Genuine desktop, tablet, and mobile previews are included in `docs/screenshots/` and listed below.
+4. For the responsive evidence requested by the assignment, use browser developer tools to view the page at desktop, tablet, and mobile widths. Save genuine screenshots in `docs/screenshots/` and add them to the table below.
 
 ## Part Two implementation
 
@@ -32,22 +32,22 @@ The portfolio identifies Khensani Maluleke as a web development student and desc
 
 ### Part Three setup still needed
 
-1. Review the bio, skills, and project descriptions in `index.html` and edit them if you want different wording; change the recipient address in `contact.html` if needed.
+1. Replace the example name, biography, skills, and project descriptions in `index.html`; change the recipient address in `contact.html` if needed.
 2. Change the map coordinates and description to the correct organisation location, or remove the map if it is not relevant.
 3. Review the feedback and changes recorded in `CHANGELOG.md`. The Part 1 non-submission cannot be corrected retroactively.
 4. If enquiries must be delivered without opening a mail application, connect a form service or server endpoint. No endpoint or credentials were supplied, so the current static form does not claim to send data.
 
 ## Responsive screenshot evidence
 
-Responsive browser screenshots of the published portfolio:
+Screenshots have not been captured in this workspace. Add genuine browser screenshots here before submission:
 
 | View | Suggested viewport | Screenshot file |
 | --- | ---: | --- |
-| Desktop | 1529 × 959 | [`desktop.jpg`](docs/screenshots/desktop.jpg) |
-| Tablet | 768 × 1024 | [`tablet.jpg`](docs/screenshots/tablet.jpg) |
-| Mobile | 390 × 844 | [`mobile.jpg`](docs/screenshots/mobile.jpg) |
+| Desktop | 1440 × 900 | `docs/screenshots/desktop.png` |
+| Tablet | 768 × 1024 | `docs/screenshots/tablet.png` |
+| Mobile | 390 × 844 | `docs/screenshots/mobile.png` |
 
-The desktop image records the browser window at its available desktop size. The tablet and mobile views use Chrome's responsive preview at the stated viewport dimensions.
+The browser preview available to this coding session blocks local `file://` pages, so I could not capture or verify these images here. Do not treat the filenames above as existing evidence until the screenshots have been added.
 
 ## Part Two feedback and corrections
 
