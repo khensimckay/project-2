@@ -20,6 +20,23 @@ A single-page portfolio starter built with semantic HTML and an external CSS sty
 - **Accessibility:** semantic landmarks, one primary heading, a skip link, keyboard focus indicators, readable contrast, 44px navigation targets, reduced-motion support, increased-contrast styles, forced-colour support, and a dark colour-scheme variant.
 - **Typography and visual design:** system font stack, consistent type scale, colour tokens, border, spacing, and restrained shadows.
 
+## Part Three implementation
+
+- **Interactive elements:** project image lightbox supports mouse, Enter, Space, Escape, and click-outside closing; CSS transitions respect reduced-motion preferences.
+- **Dynamic content and search:** project cards are filtered as the visitor types, with an announced result count and a clear empty-results state.
+- **Enquiry form:** collects name, valid email, service type, and optional date. Browser validation runs before JavaScript displays an enquiry summary. This static demo does not save or send enquiries.
+- **Contact form:** collects name, email, message type, and message, validates required fields, then prepares an email using the visitor's email application. Replace `REPLACE_WITH_YOUR_EMAIL@example.com` in `index.html` with the intended recipient before use. Delivery depends on the visitor having a mail application configured.
+- **Map:** responsive, interactive OpenStreetMap embed centered on Johannesburg as a clearly labelled example. Replace the coordinates and labels with the organisation's actual location.
+- **SEO:** descriptive title and meta description, canonical URL, keywords, headings, robots directives, and sitemap are included. Project image assets use descriptive names and are responsive; the artwork is decorative, so empty alt text is intentional.
+- **Security and privacy:** no third-party JavaScript or form data collection is used. The contact form keeps data in the visitor's mail application; the enquiry form only displays a local response. The map is an external OpenStreetMap embed.
+
+### Part Three setup still needed
+
+1. Replace the example name, biography, skills, project details, and contact email in `index.html`.
+2. Change the map coordinates and description to the correct organisation location, or remove the map if it is not relevant.
+3. Provide the Part Two marker feedback and record the actual changes in `CHANGELOG.md`; feedback was not included in the supplied materials.
+4. If enquiries must be delivered without opening a mail application, connect a form service or server endpoint. No endpoint or credentials were supplied, so the current static form does not claim to send data.
+
 ## Responsive screenshot evidence
 
 Screenshots have not been captured in this workspace. Add genuine browser screenshots here before submission:
@@ -44,6 +61,11 @@ The brief asks for edits based on Part One mark feedback, but the feedback itsel
 - MDN Web Docs. (n.d.). [Responsive images](https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images). Accessed 5 October 2026.
 - MDN Web Docs. (n.d.). [CSS specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Specificity). Accessed 5 October 2026.
 - W3C Web Accessibility Initiative. (n.d.). [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/understanding/). Accessed 5 October 2026.
+- MDN Web Docs. (n.d.). [HTML form validation](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation). Accessed 8 November 2026.
+- MDN Web Docs. (n.d.). [JavaScript event handling](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Events). Accessed 8 November 2026.
+- MDN Web Docs. (n.d.). [The HTML dialog element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog). Accessed 8 November 2026.
+- Google Search Central. (n.d.). [Build and submit a sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap). Accessed 8 November 2026.
+- OpenStreetMap. (n.d.). [Copyright and attribution](https://www.openstreetmap.org/copyright). Accessed 8 November 2026.
 - No external libraries, web fonts, or third-party image assets are used.
 - The two abstract project illustrations were created for this starter project and are examples to replace with genuine project images if available.
 - Font stack: locally available system sans-serif fonts.
