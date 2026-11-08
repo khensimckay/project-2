@@ -4,8 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="A web development portfolio featuring skills, selected projects, and contact information.">
+  <meta name="keywords" content="web development, portfolio, HTML, CSS, JavaScript, responsive design">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://khensimckay.github.io/project-2/">
   <meta name="color-scheme" content="light dark">
-  <title>[Your Name] | Web Developer</title>
+  <title>[Your Name] | Web Developer Portfolio</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -19,6 +22,8 @@
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#enquiry">Enquiry</a></li>
+          <li><a href="#location">Map</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -81,10 +86,13 @@
           <p class="eyebrow">03 / SELECTED WORK</p>
           <h2 id="projects-title">A few things I’ve made.</h2>
         </div>
-        <p class="supporting-copy">Replace these examples with your own work and describe what you learned while making it.</p>
+        <p class="supporting-copy">Explore the sample projects. Use the search field to filter them.</p>
       </div>
+      <label class="project-search-label" for="project-search">Search projects</label>
+      <input id="project-search" class="project-search" type="search" placeholder="Try “website” or “interface”" autocomplete="off">
+      <p id="search-status" class="form-status" role="status" aria-live="polite"></p>
       <div class="project-grid">
-        <article class="project-card">
+        <article class="project-card" data-search="website portfolio web design responsive">
           <picture class="project-image">
             <source type="image/webp" srcset="assets/images/project-one-640.webp 640w, assets/images/project-one-960.webp 960w, assets/images/project-one-1280.webp 1280w" sizes="(max-width: 42rem) calc(100vw - 2.5rem), (max-width: 64rem) calc(50vw - 2.5rem), 34rem">
             <img src="assets/images/project-one-640.jpg" srcset="assets/images/project-one-640.jpg 640w, assets/images/project-one-960.jpg 960w, assets/images/project-one-1280.jpg 1280w" sizes="(max-width: 42rem) calc(100vw - 2.5rem), (max-width: 64rem) calc(50vw - 2.5rem), 34rem" width="640" height="420" alt="" loading="lazy" decoding="async">
@@ -96,7 +104,7 @@
             <span class="project-link-placeholder">Add a project link when available.</span>
           </div>
         </article>
-        <article class="project-card">
+        <article class="project-card" data-search="interface app user experience design">
           <picture class="project-image">
             <source type="image/webp" srcset="assets/images/project-two-640.webp 640w, assets/images/project-two-960.webp 960w, assets/images/project-two-1280.webp 1280w" sizes="(max-width: 42rem) calc(100vw - 2.5rem), (max-width: 64rem) calc(50vw - 2.5rem), 34rem">
             <img src="assets/images/project-two-640.jpg" srcset="assets/images/project-two-640.jpg 640w, assets/images/project-two-960.jpg 960w, assets/images/project-two-1280.jpg 1280w" sizes="(max-width: 42rem) calc(100vw - 2.5rem), (max-width: 64rem) calc(50vw - 2.5rem), 34rem" width="640" height="420" alt="" loading="lazy" decoding="async">
@@ -111,23 +119,64 @@
       </div>
     </section>
 
+    <section class="section container enquiry-section" id="enquiry" aria-labelledby="enquiry-title">
+      <div class="section-heading">
+        <p class="eyebrow">04 / PROJECT ENQUIRY</p>
+        <h2 id="enquiry-title">Ask about a project.</h2>
+      </div>
+      <form id="enquiry-form" class="site-form" action="#enquiry" method="get">
+        <label for="enquiry-name">Your name</label>
+        <input id="enquiry-name" name="name" autocomplete="name" required minlength="2" maxlength="80">
+        <label for="enquiry-email">Email address</label>
+        <input id="enquiry-email" name="email" type="email" autocomplete="email" required>
+        <label for="enquiry-service">What are you enquiring about?</label>
+        <select id="enquiry-service" name="service" required>
+          <option value="">Choose one</option>
+          <option>Website or portfolio</option><option>Product or service</option><option>Volunteering</option><option>Sponsorship</option>
+        </select>
+        <label for="enquiry-date">Preferred date (optional)</label>
+        <input id="enquiry-date" name="date" type="date">
+        <button class="button button-primary" type="submit">Check enquiry</button>
+        <p id="enquiry-status" class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="section container map-section" id="location" aria-labelledby="map-title">
+      <div class="section-heading"><p class="eyebrow">05 / FIND US</p><h2 id="map-title">Location map</h2><p class="supporting-copy">Interactive example map centered on Johannesburg. Replace it with your organisation’s location before submission.</p></div>
+      <div><iframe class="location-map" title="Interactive OpenStreetMap example centered on Johannesburg" src="https://www.openstreetmap.org/export/embed.html?bbox=28.017%2C-26.23%2C28.10%2C-26.15&amp;layer=mapnik&amp;marker=-26.2041%2C28.0473" loading="lazy" referrerpolicy="no-referrer"></iframe><a href="https://www.openstreetmap.org/?mlat=-26.2041&amp;mlon=28.0473#map=13/-26.2041/28.0473">Open the example map in OpenStreetMap</a></div>
+    </section>
+
+    <dialog id="image-lightbox" class="image-lightbox" aria-label="Enlarged project image">
+      <button class="lightbox-close" type="button" aria-label="Close enlarged image">Close ×</button>
+      <img alt="">
+    </dialog>
+
     <section class="contact-section" id="contact" aria-labelledby="contact-title">
       <div class="container contact-inner">
         <div>
           <p class="eyebrow">04 / GET IN TOUCH</p>
           <h2 id="contact-title">Have a good idea?<br>Let’s talk.</h2>
         </div>
-        <p>[Add a contact email address or social profile you are comfortable sharing.]</p>
+        <form id="contact-form" class="site-form contact-form" action="mailto:REPLACE_WITH_YOUR_EMAIL@example.com" method="post" enctype="text/plain">
+          <label for="contact-name">Your name</label><input id="contact-name" name="name" autocomplete="name" required minlength="2" maxlength="80">
+          <label for="contact-email">Email address</label><input id="contact-email" name="email" type="email" autocomplete="email" required>
+          <label for="contact-type">Message type</label>
+          <select id="contact-type" name="message_type" required><option value="">Choose one</option><option>General question</option><option>Feedback</option><option>Collaboration</option></select>
+          <label for="contact-message">Message</label><textarea id="contact-message" name="message" required minlength="10" maxlength="2000" rows="5"></textarea>
+          <button class="button button-primary" type="submit">Prepare email</button>
+          <p id="contact-status" class="form-status" role="status" aria-live="polite">Replace the email address in this form before using it.</p>
+        </form>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>© [Year] [Your Name]</p>
+      <p>© <span id="current-year">2026</span> [Your Name]</p>
       <a href="#home">Back to top <span aria-hidden="true">↑</span></a>
     </div>
   </footer>
+  <script src="js/main.js" defer></script>
 </body>
 </html>
 
