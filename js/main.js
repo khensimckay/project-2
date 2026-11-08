@@ -20,34 +20,37 @@ projectSearch?.addEventListener("input", () => {
 const currentYear = document.querySelector("#current-year");
 if (currentYear) currentYear.textContent = String(new Date().getFullYear());
 
-document.querySelector("#enquiry-form")?.addEventListener("submit", (event) => {
-  event.preventDefault();
-  const form = event.currentTarget;
-  const status = document.querySelector("#enquiry-status");
+async function sendFormToServer(form, status) {
   if (!form.reportValidity()) return;
-  const formData = new FormData(form);
-  const name = String(formData.get("name")).trim();
-  const service = String(formData.get("service"));
-  const date = String(formData.get("date"));
-  status.textContent = `Thanks, ${name}. Your enquiry about “${service}”${date ? ` for ${date}` : ""} has been checked. This demo does not send or store it; use the contact form to prepare an email.`;
-});
+  const button = form.querySelector("button[type=submit]");
+  button.disabled = true;
+  status.textContent = "Sending your message securely…";
 
-document.querySelector("#contact-form")?.addEventListener("submit", (event) => {
-  event.preventDefault();
-  const form = event.currentTarget;
-  const status = document.querySelector("#contact-status");
-  if (!form.reportValidity()) return;
-  const recipient = new URL(form.action).pathname;
-  if (recipient.includes("REPLACE_WITH_YOUR_EMAIL")) {
-    status.textContent = "Please replace the example email address in the HTML before sending. Your message has not been sent.";
-    return;
+  try {
+    const response = await fetch(form.action, {
+      method: "POST",
+      headers: { Accept: "application/json", "Content-Type": "application/json" },
+      body: JSON.stringify(Object.fromEntries(new FormData(form).entries()))
+    });
+    const result = await response.json();
+    if (!response.ok || result.success === "false" || result.success === false) {
+      throw new Error(result.message || "The form service could not accept the submission.");
+    }
+    form.reset();
+    status.textContent = "Thank you. Your message was sent successfully.";
+  } catch (error) {
+    status.textContent = "Your message could not be sent. Please check your connection and try again, or email ST10528937@myemeris.edu.za.";
+  } finally {
+    button.disabled = false;
   }
-  const data = new FormData(form);
-  const subject = `${data.get("message_type")} from ${data.get("name")}`;
-  const body = `Name: ${data.get("name")}\nEmail: ${data.get("email")}\nMessage type: ${data.get("message_type")}\n\n${data.get("message")}`;
-  status.textContent = "Your email app is opening with the validated message. Review it there and press Send.";
-  window.location.href = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-});
+}
+
+for (const [id, statusId] of [["enquiry-form", "enquiry-status"], ["contact-form", "contact-status"]]) {
+  document.querySelector(`#${id}`)?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    sendFormToServer(event.currentTarget, document.querySelector(`#${statusId}`));
+  });
+}
 
 const lightbox = document.querySelector("#image-lightbox");
 const lightboxImage = lightbox?.querySelector("img");
