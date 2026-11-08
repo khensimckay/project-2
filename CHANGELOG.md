@@ -15,6 +15,7 @@
 - Other recorded Part 2 scores included: default CSS 2/5, layout 2/5, typography 2/5, breakpoints 5/10, responsive images 0/5, README 2/5, changelog 2/5, references 2/5, and descriptive commits 2/5. This update retains responsive image sources, adds per-page SEO, documents implementation and setup, expands references and changelog, and is published as separate descriptive commits.
 - Navigation scored 4/5 and pseudo-classes 4/10; responsive navigation is shared across all three pages and identifies the active page, while hover, focus, and lightbox states are styled.
 - Updated README with the features, privacy/security notes, setup items, references, and known static-hosting limits.
+- Captured genuine desktop (1529 × 959), tablet (768 × 1024), and mobile (390 × 844) responsive previews and added them under `docs/screenshots/` with README links.
 
 ## 2026-10-05 — Part Two: CSS styling and responsive design
 
@@ -25,7 +26,7 @@
 - Added keyboard, reduced-motion, dark colour-scheme, increased-contrast, and forced-colour support.
 - Added this README, a Part Two reference list, and a responsive screenshot evidence checklist.
 
-## Part Two feedback
+## Part One mark feedback
 
-The feedback printout was provided on 8 November 2026 and the mark totals and marker comments are recorded in the Part Three entry above. No Part One feedback was supplied separately.
+No mark feedback was included in the materials available for this revision. Add the specific feedback and the corresponding correction here when it is provided; do not infer or invent feedback.
 
