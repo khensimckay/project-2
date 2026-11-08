@@ -17,6 +17,7 @@
 - Updated README with the features, privacy/security notes, setup items, references, and known static-hosting limits.
 - Captured genuine desktop (1529 × 959), tablet (768 × 1024), and mobile (390 × 844) responsive previews and added them under `docs/screenshots/` with README links.
 - Connected enquiry and contact forms to FormSubmit's AJAX endpoint. Added required consent, clear delivery messages, and a spam honeypot. FormSubmit requires one first submission and an email confirmation before it will deliver messages.
+- Submitted a harmless setup test. FormSubmit returned its activation-required response and sent an activation email to the configured recipient; the test message was not delivered. The recipient must confirm the address before messages can be delivered.
 
 ## 2026-10-05 — Part Two: CSS styling and responsive design
 
