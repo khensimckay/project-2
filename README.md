@@ -2,14 +2,14 @@
 
 A responsive portfolio website built with semantic HTML, a shared external stylesheet, and JavaScript. It includes a home page, a project enquiry page, and a contact page.
 
-> Personal details and project descriptions in square brackets are placeholders. Replace them with accurate information before submitting or publishing the site.
+The portfolio identifies Khensani Maluleke as a web development student and describes the responsive portfolio and its JavaScript enhancements.
 
 ## Open and preview
 
 1. Open this folder in Visual Studio Code: **File → Open Folder**.
 2. Open `index.html` to edit the page and `css/style.css` to edit its design.
 3. Open `index.html` in a browser to preview the site.
-4. For the responsive evidence requested by the assignment, use browser developer tools to view the page at desktop, tablet, and mobile widths. Save genuine screenshots in `docs/screenshots/` and add them to the table below.
+4. Genuine desktop, tablet, and mobile previews are included in `docs/screenshots/` and listed below.
 
 ## Part Two implementation
 
@@ -24,30 +24,30 @@ A responsive portfolio website built with semantic HTML, a shared external style
 
 - **Interactive elements:** project image lightbox supports mouse, Enter, Space, Escape, and click-outside closing; CSS transitions respect reduced-motion preferences.
 - **Dynamic content and search:** project cards are filtered as the visitor types, with an announced result count and a clear empty-results state.
-- **Enquiry form:** collects name, valid email, service type, and optional date. Browser validation runs before JavaScript displays an enquiry summary. This static demo does not save or send enquiries.
-- **Contact form:** collects name, email, message type, and message, validates required fields, then prepares an email using the visitor's email application. The configured recipient is the address provided for this project. Review the public contact email before sharing the site. Delivery depends on the visitor having a mail application configured.
+- **Enquiry form:** collects name, email, enquiry type, optional date, and details. Native validation and required consent run before JavaScript submits the form with AJAX to FormSubmit, which emails it to the configured recipient.
+- **Contact form:** collects name, email, message type, and message. Native validation and required consent run before JavaScript submits it with AJAX to FormSubmit.
 - **Map:** responsive, interactive OpenStreetMap embed centered on Johannesburg as a clearly labelled example. Replace the coordinates and labels with the organisation's actual location.
 - **SEO:** descriptive title and meta description, canonical URL, keywords, headings, robots directives, and sitemap are included. Project image assets use descriptive names and are responsive; the artwork is decorative, so empty alt text is intentional.
-- **Security and privacy:** no third-party JavaScript or form data collection is used. The contact form keeps data in the visitor's mail application; the enquiry form only displays a local response. The map is an external OpenStreetMap embed.
+- **Security and privacy:** form submission sends the details to FormSubmit over HTTPS for email delivery to ST10528937@myemeris.edu.za. FormSubmit states that it retains submissions for up to 30 days; read its [privacy information](https://formsubmit.co/privacy). Each form has a required consent checkbox. The map is an external OpenStreetMap embed.
 
 ### Part Three setup still needed
 
-1. Replace the example name, biography, skills, and project descriptions in `index.html`; change the recipient address in `contact.html` if needed.
+1. Review the bio, skills, and project descriptions in `index.html` and edit them if you want different wording; change the recipient address in `contact.html` if needed.
 2. Change the map coordinates and description to the correct organisation location, or remove the map if it is not relevant.
 3. Review the feedback and changes recorded in `CHANGELOG.md`. The Part 1 non-submission cannot be corrected retroactively.
-4. If enquiries must be delivered without opening a mail application, connect a form service or server endpoint. No endpoint or credentials were supplied, so the current static form does not claim to send data.
+4. Submit one test message on the live site. FormSubmit will send a one-time activation email to ST10528937@myemeris.edu.za; open it and confirm the address. Both forms can send email after activation. Check spam if the activation message is delayed.
 
 ## Responsive screenshot evidence
 
-Screenshots have not been captured in this workspace. Add genuine browser screenshots here before submission:
+Responsive browser screenshots of the published portfolio:
 
 | View | Suggested viewport | Screenshot file |
 | --- | ---: | --- |
-| Desktop | 1440 × 900 | `docs/screenshots/desktop.png` |
-| Tablet | 768 × 1024 | `docs/screenshots/tablet.png` |
-| Mobile | 390 × 844 | `docs/screenshots/mobile.png` |
+| Desktop | 1529 × 959 | [`desktop.jpg`](docs/screenshots/desktop.jpg) |
+| Tablet | 768 × 1024 | [`tablet.jpg`](docs/screenshots/tablet.jpg) |
+| Mobile | 390 × 844 | [`mobile.jpg`](docs/screenshots/mobile.jpg) |
 
-The browser preview available to this coding session blocks local `file://` pages, so I could not capture or verify these images here. Do not treat the filenames above as existing evidence until the screenshots have been added.
+The desktop image records the browser window at its available desktop size. The tablet and mobile views use Chrome's responsive preview at the stated viewport dimensions.
 
 ## Part Two feedback and corrections
 
@@ -66,7 +66,7 @@ The marker feedback recorded that Part 1 was not submitted and that only one pag
 - MDN Web Docs. (n.d.). [The HTML dialog element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog). Accessed 8 November 2026.
 - Google Search Central. (n.d.). [Build and submit a sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap). Accessed 8 November 2026.
 - OpenStreetMap. (n.d.). [Copyright and attribution](https://www.openstreetmap.org/copyright). Accessed 8 November 2026.
-- No external libraries, web fonts, or third-party image assets are used.
+- No client-side libraries, web fonts, or third-party image assets are used. FormSubmit is the external form delivery service.
 - The two abstract project illustrations were created for this starter project and are examples to replace with genuine project images if available.
 - Font stack: locally available system sans-serif fonts.
 
