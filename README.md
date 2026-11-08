@@ -2,7 +2,7 @@
 
 A responsive portfolio website built with semantic HTML, a shared external stylesheet, and JavaScript. It includes a home page, a project enquiry page, and a contact page.
 
-> Personal details and project descriptions in square brackets are placeholders. Replace them with accurate information before submitting or publishing the site.
+The portfolio identifies Khensani Maluleke as a web development student and describes the responsive portfolio and its JavaScript enhancements.
 
 ## Open and preview
 
@@ -32,7 +32,7 @@ A responsive portfolio website built with semantic HTML, a shared external style
 
 ### Part Three setup still needed
 
-1. Replace the example name, biography, skills, and project descriptions in `index.html`; change the recipient address in `contact.html` if needed.
+1. Review the bio, skills, and project descriptions in `index.html` and edit them if you want different wording; change the recipient address in `contact.html` if needed.
 2. Change the map coordinates and description to the correct organisation location, or remove the map if it is not relevant.
 3. Review the feedback and changes recorded in `CHANGELOG.md`. The Part 1 non-submission cannot be corrected retroactively.
 4. If enquiries must be delivered without opening a mail application, connect a form service or server endpoint. No endpoint or credentials were supplied, so the current static form does not claim to send data.
