@@ -255,4 +255,10 @@ h1, h2, h3 { color: var(--ink); }
 .image-lightbox::backdrop { background: rgb(10 14 25 / 82%); }
 .image-lightbox img { width: 100%; max-height: 78vh; object-fit: contain; }
 .lightbox-close { display: block; margin: 0 0 0.75rem auto; min-height: 2.75rem; padding: 0.5rem 0.8rem; border: 1px solid var(--line); border-radius: 0.5rem; background: var(--surface); color: var(--ink); font: inherit; cursor: pointer; }
+.site-nav a[aria-current="page"] { background: var(--accent-pale); color: var(--accent-hover); text-decoration-color: currentColor; }
+.standalone-page { min-height: 70vh; padding-block: clamp(3rem, 8vw, 6rem); }
+.standalone-page h1 { max-width: 16ch; margin: 0 0 0.8rem; font-size: clamp(2.4rem, 6vw, 4.5rem); font-weight: 800; letter-spacing: -0.07em; line-height: 1.02; }
+.standalone-page > .supporting-copy { max-width: 42rem; margin-bottom: 1.5rem; }
+.standalone-page .site-form { padding: clamp(1rem, 3vw, 2rem); border: 1px solid var(--line); border-radius: 1rem; background: var(--surface); box-shadow: var(--shadow); }
+.standalone-page .site-form button { margin-top: 1rem; }
 
