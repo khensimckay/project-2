@@ -55,17 +55,17 @@ The marker feedback recorded that Part 1 was not submitted and that only one pag
 
 ## References
 
-- MDN Web Docs. (n.d.). [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Grids). Accessed 5 October 2026.
-- MDN Web Docs. (n.d.). [Flexbox](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox). Accessed 5 October 2026.
-- MDN Web Docs. (n.d.). [Media queries](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries). Accessed 5 October 2026.
-- MDN Web Docs. (n.d.). [Responsive images](https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images). Accessed 5 October 2026.
-- MDN Web Docs. (n.d.). [CSS specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Specificity). Accessed 5 October 2026.
-- W3C Web Accessibility Initiative. (n.d.). [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/understanding/). Accessed 5 October 2026.
-- MDN Web Docs. (n.d.). [HTML form validation](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation). Accessed 8 November 2026.
-- MDN Web Docs. (n.d.). [JavaScript event handling](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Events). Accessed 8 November 2026.
-- MDN Web Docs. (n.d.). [The HTML dialog element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog). Accessed 8 November 2026.
-- Google Search Central. (n.d.). [Build and submit a sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap). Accessed 8 November 2026.
-- OpenStreetMap. (n.d.). [Copyright and attribution](https://www.openstreetmap.org/copyright). Accessed 8 November 2026.
+- MDN Web Docs. (n.d.). [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Grids).
+- MDN Web Docs. (n.d.). [Flexbox](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox).
+- MDN Web Docs. (n.d.). [Media queries](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries).
+- MDN Web Docs. (n.d.). [Responsive images](https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images).
+- MDN Web Docs. (n.d.). [CSS specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Specificity).
+- W3C Web Accessibility Initiative. (n.d.). [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/understanding/).
+- MDN Web Docs. (n.d.). [HTML form validation](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation).
+- MDN Web Docs. (n.d.). [JavaScript event handling](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Events).
+- MDN Web Docs. (n.d.). [The HTML dialog element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog).
+- Google Search Central. (n.d.). [Build and submit a sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap).
+- OpenStreetMap. (n.d.). [Copyright and attribution](https://www.openstreetmap.org/copyright).
 - No client-side libraries, web fonts, or third-party image assets are used. FormSubmit is the external form delivery service.
 - The two abstract project illustrations were created for this starter project and are examples to replace with genuine project images if available.
 - Font stack: locally available system sans-serif fonts.
