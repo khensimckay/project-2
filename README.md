@@ -55,17 +55,17 @@ The marker feedback recorded that Part 1 was not submitted and that only one pag
 
 ## References
 
-- MDN Web Docs.. [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Grids).
-- MDN Web Docs.. [Flexbox](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox).
-- MDN Web Docs.. [Media queries](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries).
-- MDN Web Docs.. [Responsive images](https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images).
-- MDN Web Docs.. [CSS specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Specificity).
-- W3C Web Accessibility Initiative.. [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/understanding/).
-- MDN Web Docs.. [HTML form validation](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation).
-- MDN Web Docs.. [JavaScript event handling](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Events).
-- MDN Web Docs.. [The HTML dialog element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog).
-- Google Search Central.. [Build and submit a sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap).
-- OpenStreetMap.. [Copyright and attribution](https://www.openstreetmap.org/copyright).
+- MDN Web Docs. [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Grids).
+- MDN Web Docs. [Flexbox](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox).
+- MDN Web Docs. [Media queries](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries).
+- MDN Web Docs. [Responsive images](https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images).
+- MDN Web Docs. [CSS specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Specificity).
+- W3C Web Accessibility Initiative. [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/understanding/).
+- MDN Web Docs. [HTML form validation](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation).
+- MDN Web Docs. [JavaScript event handling](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Events).
+- MDN Web Docs. [The HTML dialog element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog).
+- Google Search Central. [Build and submit a sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap).
+- OpenStreetMap. [Copyright and attribution](https://www.openstreetmap.org/copyright).
 - No client-side libraries, web fonts, or third-party image assets are used. FormSubmit is the external form delivery service.
 - The two abstract project illustrations were created for this starter project and are examples to replace with genuine project images if available.
 - Font stack: locally available system sans-serif fonts.
